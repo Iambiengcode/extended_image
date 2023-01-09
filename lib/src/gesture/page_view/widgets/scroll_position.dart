@@ -188,6 +188,7 @@ class ExtendedPagePosition extends ScrollPositionWithSingleContext
     double? viewportDimension,
     AxisDirection? axisDirection,
     double? viewportFraction,
+    double? devicePixelRatio,
   }) {
     return PageMetrics(
       minScrollExtent: minScrollExtent ??
@@ -199,6 +200,7 @@ class ExtendedPagePosition extends ScrollPositionWithSingleContext
           (hasViewportDimension ? this.viewportDimension : null),
       axisDirection: axisDirection ?? this.axisDirection,
       viewportFraction: viewportFraction ?? this.viewportFraction,
+      devicePixelRatio: devicePixelRatio ?? this.devicePixelRatio,
     );
   }
 }
