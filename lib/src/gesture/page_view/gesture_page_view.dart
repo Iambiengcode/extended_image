@@ -25,6 +25,7 @@ final PageMetrics _testPageMetrics = PageMetrics(
   pixels: 5,
   viewportDimension: 10,
   viewportFraction: 1.0,
+  devicePixelRatio: 1.0,
 );
 
 /// whether should scoll page
