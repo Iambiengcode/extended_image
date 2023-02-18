@@ -149,7 +149,7 @@ class ImageDetail extends StatelessWidget {
                 '${tuChongItem?.imageSize.width.toInt()} * ${tuChongItem?.imageSize.height.toInt()}',
               ),
             ),
-          Positioned(
+          const Positioned(
             top: -33.0,
             right: 0,
             left: 0,
@@ -157,7 +157,7 @@ class ImageDetail extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: const <Widget>[
+                children: <Widget>[
                   Icon(
                     Icons.star,
                     color: Colors.yellow,
